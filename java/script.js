@@ -6,8 +6,7 @@ function albumSelect(e){
     console.log(clickedNote)
 
 
-        }
-    }
+
 }
 
 
