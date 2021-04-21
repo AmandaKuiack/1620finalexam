@@ -62,20 +62,50 @@ p {
 @media screen and (min-width: 640px){
 
         .albums {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .albums div {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-        }
-        .albums div {
+            grid-template-rows: 1fr 2fr 1fr 2fr;
             width: 100%;
             margin: auto;
             justify-content: center;
         }
+        .album2 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
         #Album2 {
             grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .album4 {
+            grid-column: 2/3;
+            grid-row: 3/4;
         }
         #Album4 {
             grid-column: 2/3;
+            grid-row: 4/5;
+        }
+        .album1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        #Album1 {
+            justify-content: center;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .album3 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        #Album3 {
+            grid-column: 1/2;
+            grid-row: 4/5;
         }
 
 
