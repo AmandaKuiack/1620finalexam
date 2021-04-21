@@ -2,9 +2,58 @@ body {
     background-color: #2B2C28;
     color: #FFFAFB;
     font-family: 'RocknRoll One', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+
+}
+ul {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 0;
+    text-align: center;
+}
+header {
+    font-family: 'Indie Flower', cursive;
+    background-color: #7DE2D1;
+    color: #131515;
+    text-align: center;
 }
 h1 {
-    font-family: 'Indie Flower', cursive;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.albums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.albums div {
+    width: 33%;
+    margin: auto;
+    justify-content: center;
+}
+img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+span {
+    text-align: center;
+}
+.cart {
+    background-color: #FFFAFB;
+    color: #131515;
+}
+p {
+    background-color: #7DE2D1;
+    color: #131515;
+    font-size: 0.75rem;
 }
 
 @media screen and (min-width: 640px){
